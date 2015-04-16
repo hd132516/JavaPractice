@@ -1,4 +1,4 @@
-package org.dimigo.basic;
+package org.dimigo.oop;
 
 import java.io.PrintStream;
 
