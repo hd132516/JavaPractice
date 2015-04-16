@@ -7,11 +7,11 @@ package org.dimigo.oop;
  * @author Vista
  */
 public class Car {
-    private String company;
-    private String model;
-    private String color;
-    private int maxSpeed;
-    private int price;
+    protected String company;
+    protected String model;
+    protected String color;
+    protected int maxSpeed;
+    protected int price;
 
     public String getCompany() {
         return company;
