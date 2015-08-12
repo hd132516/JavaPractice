@@ -1,5 +1,7 @@
 package org.dimigo.oop;
 
+import java.util.Arrays;
+
 /**
  * Copyright (C) 2015 Therne. All rights are reserved.
  *
