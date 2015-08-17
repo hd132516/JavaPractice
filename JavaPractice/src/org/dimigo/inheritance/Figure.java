@@ -17,4 +17,13 @@ public class Figure {
     protected double calcArea() {
         return 0.0;
     }
+
+    protected void printCenter() {
+        System.out.printf("중심 좌표 : (%d, %d)\n", centerX, centerY);
+    }
+
+    protected void moveCenter(int x, int y) {
+        this.centerX += x;
+        this.centerY += y;
+    }
 }

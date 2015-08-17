@@ -14,5 +14,19 @@ public class FigureTest {
         System.out.printf("원의 넓이 : %.1f\n", c.calcArea());
         System.out.printf("삼각형 넓이 : %.1f\n", t.calcArea());
         System.out.printf("사각형 넓이 : %.1f\n", r.calcArea());
+
+        c.printCenter();
+        t.printCenter();
+        r.printCenter();
+
+        System.out.println("-- 중심좌표 이동 (x, y 5씩)");
+
+        c.moveCenter(5, 5);
+        t.moveCenter(5, 5);
+        r.moveCenter(5, 5);
+
+        c.printCenter();
+        t.printCenter();
+        r.printCenter();
     }
 }
